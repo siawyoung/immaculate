@@ -6,7 +6,7 @@ A beautiful, ultra-fast, AMP-compliant Jekyll theme based on Tufte CSS.
 
 [Tufte CSS](https://github.com/edwardtufte/tufte-css)
 
-Immaculate includes tag support for some of the more commonly-used Tufte CSS layout options, including sidenotes, margin notes, and full-width figures. Other features, such as `newthought`, can be used by typing raw HTML in your Markdown files.
+Immaculate includes tag support for some of the more commonly-used Tufte CSS layout options, including sidenotes, margin notes, and full-width figures. Other features, such as `newthought` or epigraphs, can be used by typing raw HTML in your Markdown files. I might add helper tags for these in the future.
 
 **Caveat (need hep!)**: AMP HTML does not allow form elements, including checkboxes, which are used in Tufte CSS to toggle the display of sidenotes and margin notes at smaller widths. As such, I've modified Immaculate to disable this functionality at smaller widths for the time being. It's a big deal, and I'm looking for help on emulating this functionality without using checkboxes.
 
@@ -116,6 +116,26 @@ You can also use margin notes in conjunction with `image` and `youtube` tags by 
 {% youtube aj2h3h1sf 350 200 raw %}
 This is a <b>extremely</b> succinct example.
 {% endmarginnote %}
+```
+
+### Blockquote
+
+```
+{% blockquote <footer> %}
+<body>
+{% endblockquote %}
+```
+
+Standard Markdown blockquotes are supported by Immaculate. Additionally, the `blockquote` tag block allows you to insert Tufte-styled blockquotes with footers.
+
+##### Example usage
+
+```
+{% blockquote Friedrich Nietzsche, Thus Spoke Zarathustra %}
+
+But say, my brothers, what can the child do that even the lion could not do? Why must the preying lion still become a child? The child is innocence and forgetting, a new beginning, a game, a self-propelled wheel, a first movement, a sacred “Yes.” For the game of creation, my brothers, a sacred “Yes” is needed: the spirit now wills his own will, and he who had been lost to the world now conquers the world.
+
+{% endblockquote %}
 ```
 
 ## Syntax highlighting
