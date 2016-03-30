@@ -2,9 +2,13 @@
 
 A beautiful, fast, AMP-compliant Jekyll theme based on Tufte CSS.
 
-[Check it out here!](http://siawyoung.com/immaculate)
+[Check it out here!](https://cdn.ampproject.org/c/siawyoung.com/immaculate/)
+
+[Google AMP](https://www.ampproject.org/)
 
 [Tufte CSS](https://github.com/edwardtufte/tufte-css)
+
+Immaculate is really fast, thanks to Google AMP. When served over Google's CDN, you will see typical `DOMContentLoaded` times of well under 100ms. The benefits are most obvious for slower connections. On the *Regular - 2G* throttling setting in Chrome, the demo page still manages a `DOMContentLoaded` of under 500ms.
 
 Immaculate includes tag support for some of the more commonly-used Tufte CSS layout options, including sidenotes, margin notes, and full-width figures. Other features, such as `newthought` or epigraphs, can be used by typing raw HTML in your Markdown files. I might add helper tags for these in the future.
 
