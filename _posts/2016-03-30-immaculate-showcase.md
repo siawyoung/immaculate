@@ -3,9 +3,9 @@ layout: post
 title: Immaculate Showcase
 ---
 
-This is an example post showcasing the various features of [Immaculate](https://github.com/siawyoung/immaculate) and [Tufte CSS](https://github.com/edwardtufte/tufte-css). Please refer to the Markdown source for this post for a better understanding.
+This is an example post showcasing the various features of [Immaculate](https://github.com/siawyoung/immaculate) and [Tufte CSS](https://github.com/edwardtufte/tufte-css). Refer to the Markdown source of this post for a better understanding!
 
-Please feel free to modify Immaculate's template files to your liking. I have kept them as terse as possible for this express purpose.
+And please feel free to modify Immaculate's template files to your liking. Immaculate is extremely minimal as far as usual blogging features are concerned.
 
 # This is a H1.
 

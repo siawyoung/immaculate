@@ -1,6 +1,6 @@
 # Immaculate
 
-A beautiful, ultra-fast, AMP-compliant Jekyll theme based on Tufte CSS.
+A beautiful, fast, AMP-compliant Jekyll theme based on Tufte CSS.
 
 [Check it out here!](http://siawyoung.com/immaculate)
 
@@ -136,6 +136,18 @@ Standard Markdown blockquotes are supported by Immaculate. Additionally, the `bl
 But say, my brothers, what can the child do that even the lion could not do? Why must the preying lion still become a child? The child is innocence and forgetting, a new beginning, a game, a self-propelled wheel, a first movement, a sacred “Yes.” For the game of creation, my brothers, a sacred “Yes” is needed: the spirit now wills his own will, and he who had been lost to the world now conquers the world.
 
 {% endblockquote %}
+```
+
+## Even faster performance
+
+By default, Immaculate will utilize Tufte CSS's default font stack, which uses `et-book`. The custom font files are about 160kb in total, which is somewhat of a strain. If performance is really important, Immaculate also ships with a leaner version of Tufte CSS, which uses just [the Palatino stack instead](http://www.cssfontstack.com/Palatino). It has 99.29% Mac and 86.13% Windows distribution.
+
+You just need to change the following line in `_includes/styles.scss`:
+
+```
+@import 'tufte';
+// change to:
+@import 'lean_tufte';
 ```
 
 ## Syntax highlighting
