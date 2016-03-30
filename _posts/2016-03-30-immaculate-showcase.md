@@ -17,11 +17,11 @@ Here is a **bold**, an *italic*, and a [hyperlink](/#).
 
 This is a normal-sized image.
 
-{% image http://loremflickr.com/600/300 600 300 %}
+{% image /assets/images/sushi.jpg 600 400 %}
 
 This is a full-width image.
 
-{% image http://loremflickr.com/1200/600 1200 600 fw %}
+{% image /assets/images/sf.jpg 1400 933 fw %}
 
 This is a Youtube video.
 
@@ -34,8 +34,7 @@ cillum dolore eu fugiat nulla pariatur. Excepteur{% sidenote side2 This is anoth
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 {% marginnote margin1 %}
-{% image http://loremflickr.com/400/200 400 200 raw %}
-This is a fantastic image.
+This is a margin note.
 {% endmarginnote %}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
