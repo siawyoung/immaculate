@@ -2,15 +2,19 @@
 
 A beautiful, ultra-fast, AMP-compliant Jekyll theme based on Tufte CSS.
 
+[Check it out here!](http://siawyoung.com/immaculate)
+
 [Tufte CSS](https://github.com/edwardtufte/tufte-css)
 
-Immaculate currently includes tag support for some of the more commonly-used Tufte CSS layout options, including sidenotes, margin notes, full-width figures. Other features, such as `newthought`, can still be used by typing raw HTML in your Markdown files.
+Immaculate includes tag support for some of the more commonly-used Tufte CSS layout options, including sidenotes, margin notes, and full-width figures. Other features, such as `newthought`, can be used by typing raw HTML in your Markdown files.
 
 **Caveat (need hep!)**: AMP HTML does not allow form elements, including checkboxes, which are used in Tufte CSS to toggle the display of sidenotes and margin notes at smaller widths. As such, I've modified Immaculate to disable this functionality at smaller widths for the time being. It's a big deal, and I'm looking for help on emulating this functionality without using checkboxes.
 
 ## Helper Tags
 
 Immaculate comes with a few helper tags.
+
+### Image
 
 ```
 {% image <src> <width> <height> <option?> %}
@@ -33,6 +37,8 @@ The `image` tag allows you to insert AMP-compliant images into the post.
 {% image https://image.com/image.jpg 1200 600 fw %}
 ```
 
+### Youtube
+
 ```
 {% youtube <id> <width> <height> <option?> %}
 ```
@@ -54,6 +60,10 @@ The `youtube` tag allows you to insert AMP-compliant embedded Youtube videos int
 {% youtube aj2h3h1sf 600 400 %}
 ```
 
+### Sidenote
+
+(See caveat above)
+
 ```
 {% sidenote <id> <body> %}
 ```
@@ -69,6 +79,10 @@ The `sidenote` tag allows you insert sidenotes into the post.
 ```
 This is a very long{% sidenote meh Yes, <i>very</i> long. %} sentence.
 ```
+
+### Margin Note
+
+(See caveat above)
 
 ```
 {% marginnote <id> %}
@@ -116,3 +130,7 @@ body {
 ## Credits
 
 Credits to [Amplify]() for most of the AMP-related code.
+
+## License
+
+MIT

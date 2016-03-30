@@ -1,7 +1,7 @@
 title: Immaculate
 description: >
   A beautiful, ultra-fast, AMP-compliant Jekyll theme based on Tufte CSS.
-baseurl: ""
+baseurl: "/immaculate"
 url: "https://github.com/siawyoung/immaculate"
 paginate:	2 # The number of posts to show per page on your homepage
 name: "Lau Siaw Young"

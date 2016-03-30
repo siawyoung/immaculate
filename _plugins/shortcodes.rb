@@ -8,7 +8,7 @@ class ImageTag < Liquid::Tag
   def render(context)
     if @option == 'fw'
       <<-MARKUP.strip
-        <figure class="fullwidth"><amp-img width="#{@width}" height="#{@height}" layout="responsive" src="#{@src}"></amp-img></figure>
+        <figure class="fullwidth"><amp-img width="#{@width}" height="#{@height}" layout="responsive" src="#{context["site"]["baseurl"]}#{@src}"></amp-img></figure>
       MARKUP
     elsif @option == 'raw'
       <<-MARKUP.strip
@@ -16,7 +16,7 @@ class ImageTag < Liquid::Tag
       MARKUP
     else
       <<-MARKUP.strip
-        <figure><amp-img width="#{@width}" height="#{@height}" layout="responsive" src="#{@src}"></amp-img></figure>
+        <figure><amp-img width="#{@width}" height="#{@height}" layout="responsive" src="#{context["site"]["baseurl"]}#{@src}"></amp-img></figure>
       MARKUP
     end
   end
