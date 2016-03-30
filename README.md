@@ -2,7 +2,6 @@
 
 A beautiful, ultra-fast, AMP-compliant Jekyll theme based on Tufte CSS.
 
-[]
 [Tufte CSS](https://github.com/edwardtufte/tufte-css)
 
 Immaculate currently includes tag support for some of the more commonly-used Tufte CSS layout options, including sidenotes, margin notes, full-width figures. Other features, such as `newthought`, can still be used by typing raw HTML in your Markdown files.
