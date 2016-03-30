@@ -73,7 +73,22 @@ class MarginNoteTag < Liquid::Block
   end
 end
 
+class BlockQuoteTag < Liquid::Block
+  def initialize(tag_name, args, tokens)
+    super
+    @footer = args.strip
+  end
+
+  def render(context)
+    p @footer
+    <<-MARKUP.strip
+      <blockquote><p>#{super.strip}</p><p class="footer">#{@footer}</p></blockquote>
+    MARKUP
+  end
+end
+
 Liquid::Template.register_tag('image', ImageTag)
 Liquid::Template.register_tag('youtube', YoutubeTag)
 Liquid::Template.register_tag('sidenote', SideNoteTag)
 Liquid::Template.register_tag('marginnote', MarginNoteTag)
+Liquid::Template.register_tag('blockquote', BlockQuoteTag)

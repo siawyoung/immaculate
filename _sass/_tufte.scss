@@ -112,7 +112,7 @@ blockquote { font-size: 1.4rem; }
 
 blockquote p { width: 50%; }
 
-blockquote footer { width: 50%;
+blockquote .footer { width: 50%;
                     font-size: 1.1rem;
                     text-align: right; }
 
@@ -211,13 +211,13 @@ div.fullwidth, table.fullwidth { width: 100%; }
 div.table-wrapper { overflow-x: auto;
                     font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif; }
 
-@media screen and (max-width: 760px) { p, footer { width: 90%; }
+@media screen and (max-width: 760px) { p, h1, h2, h3, footer { width: 90%; }
                                        pre.code { width: 87.5%; }
                                        ul { width: 85%; }
                                        figure { max-width: 90%; }
                                        figcaption, figure.fullwidth figcaption { margin-right: 0%;
                                                                                  max-width: none; }
-                                       blockquote p, blockquote footer { width: 90%; }}
+                                       blockquote p, blockquote .footer { width: 90%; }}
 
 .sans { font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
         letter-spacing: .03em; }
