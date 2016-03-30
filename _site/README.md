@@ -10,9 +10,20 @@ Immaculate includes tag support for some of the more commonly-used Tufte CSS lay
 
 **Caveat (need hep!)**: AMP HTML does not allow form elements, including checkboxes, which are used in Tufte CSS to toggle the display of sidenotes and margin notes at smaller widths. As such, I've modified Immaculate to disable this functionality at smaller widths for the time being. It's a big deal, and I'm looking for help on emulating this functionality without using checkboxes.
 
+## Getting Started
+
+```
+git clone git@github.com:siawyoung/immaculate.git
+cd immaculate
+bundle install
+bundle exec jekyll serve --baseurl ''
+```
+
+Modify the template files and `_config.yml` to your liking, and publish away!
+
 ## Helper Tags
 
-Immaculate comes with a few helper tags.
+Immaculate comes with a few helper tags. The source code for these tags can be found in `_plugins/shortcodes.rb`.
 
 ### Image
 
