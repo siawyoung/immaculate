@@ -80,7 +80,6 @@ class BlockQuoteTag < Liquid::Block
   end
 
   def render(context)
-    p @footer
     <<-MARKUP.strip
       <blockquote><p>#{super.strip}</p><p class="footer">#{@footer}</p></blockquote>
     MARKUP
