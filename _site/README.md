@@ -178,7 +178,7 @@ body {
 
 ## Credits
 
-Credits to [Amplify]() for most of the AMP-related code.
+Credits to [Amplify](https://github.com/ageitgey/amplify) for most of the AMP-related code.
 
 ## License
 
