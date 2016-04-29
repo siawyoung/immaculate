@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    byebug (8.2.2)
     celluloid (0.16.0)
       timers (~> 4.0.0)
     colorator (0.1)
@@ -43,7 +42,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug
   jekyll
   jekyll-compose
   jekyll-paginate
