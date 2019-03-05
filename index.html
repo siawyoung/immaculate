@@ -21,9 +21,9 @@ layout: default
             <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
           </div>
 
-          <section itemprop="description">
-            {{ post.content | markdownify }}
-          </section>
+          <div class="post-excerpt-container">
+            <p class="post-excerpt">{{ post.excerpt }}</p>
+          </div>
 
       </article>
     {% endfor %}

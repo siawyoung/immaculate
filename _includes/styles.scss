@@ -5,6 +5,10 @@ $grey-color: #828282;
 @import 'tufte';
 // @import 'syntax-highlighting';
 
+body {
+  background-color: #ffffff;
+}
+
 main {
   margin-top: 20px;
 }
@@ -14,7 +18,7 @@ amp-img {
 }
 
 article {
-  padding: 2.5rem 0;
+  padding: 0.4rem 0;
 }
 
 header {

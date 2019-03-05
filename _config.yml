@@ -1,10 +1,10 @@
-title: Immaculate
+title: Gloss'd
 description: >
-  A beautiful, fast, AMP-compliant Jekyll theme based on Tufte CSS.
-baseurl: "/immaculate"
-url: "https://github.com/siawyoung/immaculate"
-paginate:	2 # The number of posts to show per page on your homepage
-name: "Lau Siaw Young"
+  Book reviews.
+baseurl: "/glossd"
+# url: "https://github.com/siawyoung/immaculate"
+paginate:	5 # The number of posts to show per page on your homepage
+name: "Jamie Bowman"
 markdown: kramdown
 permalink: none
 kramdown:

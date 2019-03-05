@@ -4,8 +4,13 @@ GEM
     celluloid (0.16.0)
       timers (~> 4.0.0)
     colorator (0.1)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
+    eventmachine (1.2.7)
     ffi (1.9.10)
     hitimes (1.2.2)
+    http_parser.rb (0.6.0)
     jekyll (3.1.2)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
@@ -17,6 +22,9 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-compose (0.4.1)
       jekyll (>= 2.5.0)
+    jekyll-livereload (0.2.2)
+      em-websocket (~> 0.5)
+      jekyll (~> 3.0)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
@@ -44,7 +52,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-compose
+  jekyll-livereload
   jekyll-paginate
 
 BUNDLED WITH
-   1.11.2
+   1.16.5

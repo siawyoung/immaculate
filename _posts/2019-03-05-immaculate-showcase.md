@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Immaculate Showcase
+title: 'Post #2' 
 ---
 
 This is an example post showcasing the various features of [Immaculate](https://github.com/siawyoung/immaculate) and [Tufte CSS](https://github.com/edwardtufte/tufte-css). Refer to the Markdown source of this post for a better understanding!
