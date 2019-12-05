@@ -2,7 +2,7 @@
 
 A beautiful, fast, AMP-compliant Jekyll theme based on Tufte CSS.
 
-[Check it out here!](https://cdn.ampproject.org/c/siawyoung.com/immaculate/)
+[Check it out here!](https://immaculate-siawyoung-com.cdn.ampproject.org/c/immaculate.siawyoung.com/)
 
 [Google AMP](https://www.ampproject.org/)
 
